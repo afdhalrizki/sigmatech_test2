@@ -26,7 +26,7 @@ celery -A restapi flower --port=5566 --broker=redis://redis:6379/0
 
 ### 2. Login:
 - POST localhost:8000/login/
-- Token Authentication
+- No Authentication
 - Fields: phone_number, password
 
 ### 3. Showing Profile:

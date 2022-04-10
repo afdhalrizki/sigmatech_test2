@@ -20,7 +20,7 @@ celery -A restapi flower --port=5566 --broker=redis://redis:6379/0
 
 ## TESTING PROGRAM WITH POSTMAN:
 ### 1. Register:
-- POST: localhost:8000/register/
+- ####POST#### localhost:8000/register/
 - No Authentication
 - Fields: phone_number, password, confirm_password, first_name, last_name, address
 
